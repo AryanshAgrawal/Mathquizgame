@@ -3,5 +3,5 @@ function login(){
     player2_name = document.getElementById("player-nameinput2").value;
     localStorage.setItem("player1_name" , player1_name);
     localStorage.setItem("player2_name" , player2_name);
-    window.location.replace="game_quiz_page.html";
+    window.location="game_quiz_page.html";
     }
