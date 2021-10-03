@@ -1,5 +1,9 @@
 number1=0;
 number2=0;
+player_question = getitem.localStorage("player-nameinput1", player-nameinput1);
+player_answer = getitem.localStorage("player-nameinput2" , player-nameinput2);
+document.getElementById("player_question").innerHTML=player_question;
+document.getElementById("player_answer").innerHTML=player_answer;
 function send(){
 number1 = document.getElementById("number1").value;
 number2 = document.getElementById("number2").value;
